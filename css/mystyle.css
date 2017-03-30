@@ -1,0 +1,82 @@
+body {
+	color: #007aa2;
+	font-family: 'Julee', cursive;
+	/*font-family: 'Lakki Reddy', cursive;*/
+}
+.clear:after {
+	content:"";
+	clear: both;
+	display: block;
+}
+.main {
+	margin-left: 230px;
+	margin-right: 30px;
+	padding-bottom: 50px;
+}
+.container-fluid {
+	padding-left: 0px;
+}
+header {
+	position: fixed;
+	width: 200px;
+	background: #8ab1c4;
+	height: 100%;
+	color: #ac7447;
+	padding: 0;
+}
+.head {
+	padding: 30px;
+}
+header h2 {
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+header ul {
+	width: 130px;
+	box-sizing: border-box;
+	padding-left: 0;
+}
+header li {
+	line-height: 3em;
+	border-bottom: 1px solid lightblue;
+	list-style: none;
+	text-align: center;
+}
+header li:hover {
+	border-bottom: none;
+}
+header li a:hover {
+	font-size: 1.5em;
+	color: #f4c7a7;
+}
+header li a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #ac7447;
+}
+
+.btn {
+	background: #8ab1c4;
+	color: #ac7447;
+	border-color: #8ab1c4;
+}
+.btn-default:hover {
+	color: #007aa2;
+    background-color: #f4c7a7;
+    font-weight: bold;
+}
+
+.foot {
+	min-height: 50px;
+	text-align: center;
+	font-size: .8em;
+	margin: auto;
+	position: absolute;
+	padding: 10px;
+	bottom: 10px;
+}
+.foot img {
+	width: 15px;
+	display: inline-block;
+}
+

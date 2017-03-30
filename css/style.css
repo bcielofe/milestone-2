@@ -1,0 +1,91 @@
+body {
+	color: #007aa2;
+	font-family: 'Julee', cursive;
+	/*font-family: 'Lakki Reddy', cursive;*/
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+	width: 100%;
+	margin: auto;
+	max-height: 650px;
+}
+header {
+	padding: 0;
+	color: #007aa2;
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 1.2em;
+}
+
+.navbar-inverse, .navbar-brand, 
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a, .btn,
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus 
+ {
+	background: #8ab1c4;
+	color: #ac7447;
+	border-color: #8ab1c4;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #f4c7a7;
+}
+.navbar-inverse .navbar-collapse {
+	border-color: #8ab1c4;
+}
+.dropdown-menu>li>a {
+	color: #007aa2;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-brand:hover,
+.dropdown-menu>li>a:hover {
+	font-weight: bold;
+	color: #f4c7a7;
+}
+.btn-default:hover, 
+.navbar-inverse .navbar-toggle:hover {
+	color: #007aa2;
+    background-color: #f4c7a7;
+    font-weight: bold;
+}
+.banner {
+	padding: 0;
+}
+.login {
+	margin-top: 75px;
+	padding-bottom: 75px;
+}
+.clear:after {
+	clear: both;
+}
+.leftLogin {
+	float: left;
+}
+.rightLogin {
+	float: right;
+	font-size: .85em;
+}
+.incidence, .enroll, .schedule, .class_list {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.class_list {
+	padding-bottom: 50px;
+}
+li {
+	list-style-type: none;
+}
+
+footer {
+	background: #8ab1c4;
+	color: #ac7447;
+	min-height: 50px;
+	text-align: center;
+	font-size: .8em;
+	margin: auto;
+}
+
+footer img {
+	width: 15px;
+	display: inline-block;
+}
