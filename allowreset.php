@@ -1,11 +1,11 @@
 <?php
 
-$id = $_GET['id'];
+	$id = $_GET['id'];
 
-require('connection.php');
-$sql = "UPDATE teachers SET reset = 2 WHERE id = $id";
-mysqli_query($conn,$sql);
+	require('connection.php');
+	$sql = "UPDATE teachers SET reset = 2 WHERE id = $id";
+	mysqli_query($conn,$sql);
 
-header('location:teachers_admin.php');
+	header('location:teachers_admin.php');
 
 ?>

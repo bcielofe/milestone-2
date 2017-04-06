@@ -26,8 +26,6 @@
   <div class="form-group">
     <label for="proper_rspns">Contents (Proper Response): </label>
     <input type="number" class="form-control" id="proper_rspns" name="proper_rspns">
-  </div>
-  
-  
+  </div> 
   <button type="submit" class="btn btn-default">Submit</button>
 </form>

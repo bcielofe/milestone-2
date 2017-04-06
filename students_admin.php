@@ -27,6 +27,10 @@
 		<div class="col-sm-4 enroll">
 			<?php require_once ('transfer_student.php') ?>
 		</div>
+
+		<div class="col-sm-4 enroll">
+			<?php require_once ('delete_student.php') ?>
+		</div>
 	</main>
 
 	<footer class="row">

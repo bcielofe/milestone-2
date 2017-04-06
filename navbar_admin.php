@@ -40,10 +40,10 @@
 				    <li> 
 				    	<a href="students_admin.php"> Enroll Students </a> 
 				    </li> 
-				    <li> 
+				    <li class="disabled"> 
 				    	<a href="students_admin.php"> Speaking Tests </a> 
 				    </li> 
-				    <li> 
+				    <li class="disabled"> 
 				    	<a href="students_admin.php"> Student Evaluations </a> 
 				    </li> 
 				</ul> 	
@@ -55,10 +55,10 @@
 					</span>  
 				</a> 
 				<ul class="dropdown-menu">
-				    <li> 
+				    <li class="disabled"> 
 				    	<a href="teachers_admin.php"> Teacher Load </a> 
 				    </li> 
-				    <li> 
+				    <li class="disabled"> 
 				    	<a href="teachers_admin.php"> Salary Report </a> 
 				    </li> 
 				    <li> 
@@ -69,13 +69,6 @@
 			<li> 
 				<a href="logout.php">Logout</a>
 			</li>
-
-
-			<!-- <?php if(isset($_SESSION['username'])) { ?>
-			
-				
-			<?php } ?> -->
-		</ul>
-		
+		</ul>		
 	</div>
 </div>

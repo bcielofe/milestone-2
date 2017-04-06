@@ -20,33 +20,36 @@
 				<li><a href="#classes">CLasses</a></li>
 				<li><a href="#speaking">Speaking Tests</a></li>
 				<li><a href="#cards">Report Cards</a></li>
-				<li><a href="#salary">Salary Report</a></li>
+				<li class="disabled"> <a href="#salary"> Salary Report </a> </li>
 				<li><a href="#announcement">Announcements</a></li>
 				<li><a href="logout.php">Logout</a></li>
 			</ul>
 		</div>
 		<div class="foot">
-			<?php require_once ('footer.php') ?>
+			<?php require ('footer.php') ?>
 		</div>	
 	</header>
 	
-	<div id="classes" class="main col-xs-12">
+	<div id="classes" class="main col-sm-9">
 		<?php require_once ('class_list.php') ?>
 	</div>
 	<div id="speaking" class="main">
 		<?php require_once ('speaking_eval.php'); 
-		require_once ('report_card.php'); ?>
+		 ?>
 	</div>
 	<div id="cards" class="main">
-		
+		<?php require_once ('report_card.php'); ?>
 	</div>
-	<div id="salary" class="main">
+	<!-- <div id="salary" class="main">
 		
-	</div>
+	</div> -->
 	<div id="announcement" class="main">
 		<?php require_once ('announcement.php') ?>
 	</div>
 	
+	<div class="foot2">
+		<?php require ('footer.php') ?>
+	</div>
 	
 </body>
 </html>

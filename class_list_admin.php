@@ -14,6 +14,7 @@
 		</div>
 	</form>
 </div>
+
 <?php
 	include('connection.php');
 	if (isset($_POST['pick_date'])) 
@@ -45,8 +46,9 @@
 		while($r = mysqli_fetch_assoc($result2))
 		{
 			extract($r);
-			echo "<a href='#' data-toggle='modal' data-target='#TakeModal$id'>$name</a>";
-			require('take_class.php');
+			echo "$name";
+			// echo "<a href='#' data-toggle='modal' data-target='#TakeModal$id'>$name</a>";
+			// require('take_class.php');
 			echo "<br>";
 		}
 		echo "</div>";

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,27 +18,17 @@
 			<?php require_once ('navbar_admin.php') ?>
 		</nav>	
 	</header>
-
 	<main class="row" style="min-height: 600px">
 		<div class="col-sm-4 enroll">
-
-		<?php require_once ('add_class.php') ?>
-		
-
+			<?php require_once ('add_class.php') ?>
 		</div>
-
-
 		<div class="col-sm-4 schedule">
-		<?php require_once ('schedule.php') ?>
+			<?php require_once ('schedule.php') ?>
 		</div>
-
 		<div class="col-xs-12 class_list">
-		<?php require_once ('class_list.php') ?>
+			<?php require_once ('class_list_admin.php') ?>
 		</div>
-
 	</main>
-
-
 	<footer class="row">
 		<?php require_once ('footer.php') ?>
 	</footer> 
